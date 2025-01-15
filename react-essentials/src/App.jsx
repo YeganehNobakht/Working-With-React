@@ -1,29 +1,6 @@
-import Image from "./assets/react-core-concepts.png";
-import compontentImage from "./assets/components.png";
 import { CORE_CONCEPTS } from "./data";
-
-function Header() {
-  return (
-    <header>
-      <img src={Image} alt="style" />
-      <h1>React Essentials</h1>
-      <p>
-        Fundamental React concepts you will need for almost any app you are
-        gonna build!
-      </p>
-    </header>
-  );
-}
-
-function CoreConcept({ image, title, description }) {
-  return (
-    <li>
-      <img src={image} alt={title} />
-      <h3>{title}</h3>
-      <p>{description}</p>
-    </li>
-  );
-}
+import Header from "./components/Header";
+import CoreConcept from "./components/CoreConcept";
 
 function App() {
   return (
@@ -59,7 +36,6 @@ function App() {
             />
           </ul>
         </section>
-        <h2>Time to get started...</h2>
       </main>
     </div>
   );
