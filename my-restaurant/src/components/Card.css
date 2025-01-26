@@ -1,0 +1,52 @@
+.container {
+  font-size: 16px;
+  background-color: #f0f8ff;
+  border-radius: 16px;
+  padding: 1rem;
+}
+
+.card-info {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.card-info-title {
+}
+
+.checkbox {
+  height: 25px;
+  width: 25px;
+  background-color: #9e1010;
+}
+
+.totla-payment {
+  background-color: #ffc72c;
+  padding: 0.5rem 0.5rem;
+  border-radius: 8px;
+  padding: 0.5 rem;
+}
+
+button {
+  width: 100%;
+  background-color: #9e1010;
+  border: none;
+  border-radius: 8px;
+  padding: 1rem;
+  color: #fff;
+  margin-top: 0.25rem;
+}
+.discount-wraper {
+  width: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+  margin: 0.5rem 0 2rem 0;
+}
+.discount {
+  width: 100%;
+  text-align: right;
+  padding: 0.5rem;
+  border: none;
+}

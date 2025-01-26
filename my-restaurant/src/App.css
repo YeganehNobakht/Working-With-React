@@ -1,5 +1,16 @@
-.App {
-  text-align: center;
+.app {
+  background-color: #da291c;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 1rem;
+  padding: 2rem 4rem;
+  height: 100vh;
+  align-items: start;
+  justify-items: end;
 }
 
-
+@media screen and (max-width: 760px) {
+  .app {
+    grid-template-columns: 100%;
+  }
+}
