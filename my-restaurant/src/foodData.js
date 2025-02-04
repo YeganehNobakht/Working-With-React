@@ -4,7 +4,7 @@ import hamburger from "./assets/img/hamburger.png";
 import salad from "./assets/img/salad.png";
 import soda from "./assets/img/soda.png";
 
-export const foodsInfo = [
+export const  FoodData = [
   {
     name: "همبرگر معمولی",
     price: 8000,

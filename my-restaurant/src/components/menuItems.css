@@ -1,17 +1,18 @@
-.container {
+.item-container {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   background-color: #fff;
   padding: 1rem 0.5rem;
 }
 
-.img-info {
-  width: 80%;
+.item-img-info {
+  width: 100%;
   display: flex;
   gap: 0.5rem;
 }
 
-.img-container {
+.item-img-container {
   text-align: right;
   width: 40%;
 }
@@ -20,14 +21,15 @@ img {
   width: 100%;
 }
 
-.food-info {
+.item-food-info {
   width: 60%;
   display: flex;
   flex-direction: column;
   gap: 1rem;
+  text-align: right;
 }
 
-.food-quantity {
+.item-food-quantity {
   width: 5rem;
   display: flex;
   justify-content: space-between;
@@ -42,8 +44,13 @@ img {
   font-weight: 700;
 }
 
-.total-price {
-  width: 20%;
+.item-total-price {
+  width: 40%;
   align-self: flex-end;
-  text-align: left;
+  text-align: right;
+}
+.item-food-wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
 }

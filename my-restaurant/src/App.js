@@ -1,10 +1,22 @@
 import Card from "./components/Card";
 import "./App.css";
-import foodData from "./foodData";
+import { FoodData } from "./foodData";
 import MenuContainer from "./components/MenuContainer";
 
 function App() {
-  return <div id="app" className="app"></div>;
+  function onselectHandler() {
+    console.log("select");
+
+    console.log(FoodData);
+  }
+
+  onselectHandler();
+  return (
+    <div id="app" className="app">
+      <Card />
+      <MenuContainer foodData={FoodData} onSelect={() => onselectHandler()} />
+    </div>
+  );
 }
 
 export default App;

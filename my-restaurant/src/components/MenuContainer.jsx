@@ -1,9 +1,9 @@
-import "./MenuContainer.css ";
+import "./MenuContainer.css";
 import MenuItems from "./MenuItems";
 
-export default function MenuContainer(foodData, onSelect) {
+export default function MenuContainer({ foodData, onSelect }) {
   return (
-    <div className="container">
+    <div className="menu-container">
       <header className="header">
         <h3> رستوران من شعبه تهران</h3>
       </header>
