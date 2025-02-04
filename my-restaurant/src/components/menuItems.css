@@ -1,0 +1,49 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  padding: 1rem 0.5rem;
+}
+
+.img-info {
+  width: 80%;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.img-container {
+  text-align: right;
+  width: 40%;
+}
+
+img {
+  width: 100%;
+}
+
+.food-info {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.food-quantity {
+  width: 5rem;
+  display: flex;
+  justify-content: space-between;
+  background-color: #f0f8ff;
+}
+
+.operator {
+  width: 1.25rem;
+  text-align: center;
+  background-color: #9e1010;
+  color: #fff;
+  font-weight: 700;
+}
+
+.total-price {
+  width: 20%;
+  align-self: flex-end;
+  text-align: left;
+}

@@ -1,0 +1,19 @@
+.container {
+  background-color: #f0f8ff;
+  border-radius: 1rem;
+}
+
+header {
+  text-align: center;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+  padding: 2rem;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  padding: 1rem 2rem;
+  height: 75vh;
+  overflow-y: scroll;
+}
