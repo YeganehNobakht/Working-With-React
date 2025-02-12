@@ -23,11 +23,19 @@ function App() {
       console.log(newFood);
     }
   }
+  let totalPrice = 0;
+  foods.map((f) => (totalPrice += f.count * f.price));
+
+  console.log(totalPrice);
 
   onselectHandler();
   return (
     <div id="app" className="app">
-      <Card />
+      <Card
+        totalPrice={totalPrice}
+        serviceFee={totalPrice !== 0 ? 200 : 0}
+        discount={0}
+      />
       <MenuContainer foodData={foods} onSelect={onselectHandler} />
     </div>
   );

@@ -5,16 +5,16 @@ export default function Card({ totalPrice, serviceFee, discount }) {
     <div className="container">
       <div className="card-info">
         <p>:جمع کل سفارشات</p>
-        <p>{totalPrice ? totalPrice : 0} تومان</p>
+        <p>{totalPrice} تومان</p>
       </div>
       <div className="card-info">
         <p className="card-info-title">:حق سرویس</p>
-        <p className="card-info-price">{serviceFee ? serviceFee : 0} تومان</p>
+        <p className="card-info-price">{serviceFee} تومان</p>
       </div>
 
       <div className="card-info">
         <p className="card-info-title">:تخفیف</p>
-        <p className="card-info-price">{discount ? discount : 0} تومان</p>
+        <p className="card-info-price">{discount} تومان</p>
       </div>
       <div className="discount-wraper">
         <input className="discount" type="text" placeholder="کد تخفیف" />
