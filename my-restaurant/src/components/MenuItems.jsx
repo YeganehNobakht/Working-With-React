@@ -21,11 +21,17 @@ export default function MenuItems({
 
       <div className="item-food-wrapper">
         <div className="item-food-quantity">
-          <p className="operator" onClick={onSelect}>
+          <p
+            className="operator"
+            onClick={() => onSelect(foodName, "increment")}
+          >
             +
           </p>
           <p>{foodCount ? foodCount : 0}</p>
-          <p className="operator" onClick={onSelect}>
+          <p
+            className="operator"
+            onClick={() => onSelect(foodName, "decrement")}
+          >
             -
           </p>
         </div>
